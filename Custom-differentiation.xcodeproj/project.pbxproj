@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		CEA635DF251FCB08008D5005 /* Custom-differentiation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Custom-differentiation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA635E2251FCB08008D5005 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEA635EA251FCB10008D5005 /* Custom-differentiation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Custom-differentiation.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		CEA635E1251FCB08008D5005 /* Custom-differentiation */ = {
 			isa = PBXGroup;
 			children = (
+				CEA635EA251FCB10008D5005 /* Custom-differentiation.entitlements */,
 				CEA635E2251FCB08008D5005 /* main.swift */,
 			);
 			path = "Custom-differentiation";
@@ -244,6 +246,7 @@
 		CEA635E7251FCB08008D5005 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Custom-differentiation/Custom-differentiation.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YBBBYMD8T;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -255,6 +258,7 @@
 		CEA635E8251FCB08008D5005 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Custom-differentiation/Custom-differentiation.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YBBBYMD8T;
 				ENABLE_HARDENED_RUNTIME = YES;

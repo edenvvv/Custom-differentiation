@@ -17,6 +17,9 @@ print(x + x)
 print("blob")
 */
 
+
+print("Create custom derivatives:")
+
 func sillyExp(_ x: Float) -> Float {
     let 𝑒 = Float(M_E)
     print("Taking 𝑒(\(𝑒)) to the power of \(x)!")
@@ -29,8 +32,8 @@ func sillyDerivative(_ x: Float) -> (value: Float, pullback: (Float) -> Float) {
     return (value: y, pullback: { v in v * y })
 }
 
-print("exp(3) =", sillyExp(3))
-print("𝛁exp(3) =", gradient(of: sillyExp)(3))
-
+print("exp(5) =", sillyExp(5))
+print("𝛁exp(5) =", gradient(of: sillyExp)(5))
+print("-------------------------------------------------------")
 
 
